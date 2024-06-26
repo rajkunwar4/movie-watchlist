@@ -1,0 +1,60 @@
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    margin: 30px;
+    position: relative;
+
+    .watched{
+        z-index: 10;
+        position: absolute;
+    }
+    
+    img{
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+       &.done{
+        filter: brightness(20%);
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+       }
+       
+
+    }
+
+    .info{
+        padding:  15px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        
+
+        h1{
+            font-size: 22px;
+            
+        }
+        span{
+            font-size: 16px;
+            color: silver;
+        }
+        p{
+            font-size: 14px;
+            color: rgb(150, 146, 146);
+            font-weight: 600;
+        }
+
+
+    }
+}

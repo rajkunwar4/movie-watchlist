@@ -1,0 +1,178 @@
+ const movies = [
+    {
+      img: "https://m.media-amazon.com/images/S/pv-target-images/9f51e8ce4118362176505993ecd1a70223351fa1fee4a9d290ef1d945a3cbf30.png",
+      title: "Panchayat",
+      description:
+        "As the Panchayat elections approach, both Pradhan and Bhushan gangs",
+      release: "2019",
+      genre: "comedy",
+    },
+    {
+      img: "https://images.indianexpress.com/2023/10/aspirants-1.jpg",
+      title: "Aspirants",
+      description: "Abhilash has assumed the position of District Magistrate in",
+      release: "2020",
+      genre: "thriller",
+    },
+    {
+        img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+        title: "Paatal Lok",
+        description: "A down and out cop lands the case of a lifetime when four suspects",
+        release: "2019",
+        genre: "comedy",
+      },
+    {
+        img: "https://m.media-amazon.com/images/S/pv-target-images/356291ba7ee6445b4bd203816ed1a677e04421328d45966a49a1d573e0a03d05.jpg",
+        title: "Rahasya",
+        description: "Rahasya Is An Award Winning Bollywood Murder Mystery Hindi Movie,",
+        release: "2019",
+        genre: "thriller",
+      },
+      {
+        img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+        title: "Paatal Lok",
+        description: "A down and out cop lands the case of a lifetime when four suspects",
+        release: "2019",
+        genre: "comedy",
+      },
+      {
+        img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+        title: "Paatal Lok",
+        description: "A down and out cop lands the case of a lifetime when four suspects",
+        release: "2019",
+        genre: "comedy",
+      },
+      {
+        img: "https://m.media-amazon.com/images/S/pv-target-images/356291ba7ee6445b4bd203816ed1a677e04421328d45966a49a1d573e0a03d05.jpg",
+        title: "Rahasya",
+        description: "Rahasya Is An Award Winning Bollywood Murder Mystery Hindi Movie,",
+        release: "2019",
+        genre: "thriller",
+      },
+      {
+        img: "https://m.media-amazon.com/images/S/pv-target-images/9f51e8ce4118362176505993ecd1a70223351fa1fee4a9d290ef1d945a3cbf30.png",
+        title: "Panchayat",
+        description:
+          "As the Panchayat elections approach, both Pradhan and Bhushan gangs",
+        release: "2019",
+        genre: "comedy",
+      },
+      {
+        img: "https://m.media-amazon.com/images/S/pv-target-images/9f51e8ce4118362176505993ecd1a70223351fa1fee4a9d290ef1d945a3cbf30.png",
+        title: "Panchayat",
+        description:
+          "As the Panchayat elections approach, both Pradhan and Bhushan gangs",
+        release: "2019",
+        genre: "comedy",
+      },
+      {
+        img: "https://images.indianexpress.com/2023/10/aspirants-1.jpg",
+        title: "Aspirants",
+        description: "Abhilash has assumed the position of District Magistrate in",
+        release: "2020",
+        genre: "thriller",
+      },
+      {
+          img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+          title: "Paatal Lok",
+          description: "A down and out cop lands the case of a lifetime when four suspects",
+          release: "2019",
+          genre: "comedy",
+        },
+      {
+          img: "https://m.media-amazon.com/images/S/pv-target-images/356291ba7ee6445b4bd203816ed1a677e04421328d45966a49a1d573e0a03d05.jpg",
+          title: "Rahasya",
+          description: "Rahasya Is An Award Winning Bollywood Murder Mystery Hindi Movie,",
+          release: "2019",
+          genre: "thriller",
+        },
+        {
+          img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+          title: "Paatal Lok",
+          description: "A down and out cop lands the case of a lifetime when four suspects",
+          release: "2019",
+          genre: "comedy",
+        },
+        {
+          img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+          title: "Paatal Lok",
+          description: "A down and out cop lands the case of a lifetime when four suspects",
+          release: "2019",
+          genre: "comedy",
+        },
+        {
+          img: "https://m.media-amazon.com/images/S/pv-target-images/356291ba7ee6445b4bd203816ed1a677e04421328d45966a49a1d573e0a03d05.jpg",
+          title: "Rahasya",
+          description: "Rahasya Is An Award Winning Bollywood Murder Mystery Hindi Movie,",
+          release: "2019",
+          genre: "thriller",
+        },
+        {
+          img: "https://m.media-amazon.com/images/S/pv-target-images/9f51e8ce4118362176505993ecd1a70223351fa1fee4a9d290ef1d945a3cbf30.png",
+          title: "Panchayat",
+          description:
+            "As the Panchayat elections approach, both Pradhan and Bhushan gangs",
+          release: "2019",
+          genre: "comedy",
+        },
+        {
+            img: "https://m.media-amazon.com/images/S/pv-target-images/9f51e8ce4118362176505993ecd1a70223351fa1fee4a9d290ef1d945a3cbf30.png",
+            title: "Panchayat",
+            description:
+              "As the Panchayat elections approach, both Pradhan and Bhushan gangs",
+            release: "2019",
+            genre: "comedy",
+          },
+          {
+            img: "https://images.indianexpress.com/2023/10/aspirants-1.jpg",
+            title: "Aspirants",
+            description: "Abhilash has assumed the position of District Magistrate in",
+            release: "2020",
+            genre: "thriller",
+          },
+          {
+              img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+              title: "Paatal Lok",
+              description: "A down and out cop lands the case of a lifetime when four suspects",
+              release: "2019",
+              genre: "comedy",
+            },
+          {
+              img: "https://m.media-amazon.com/images/S/pv-target-images/356291ba7ee6445b4bd203816ed1a677e04421328d45966a49a1d573e0a03d05.jpg",
+              title: "Rahasya",
+              description: "Rahasya Is An Award Winning Bollywood Murder Mystery Hindi Movie,",
+              release: "2019",
+              genre: "thriller",
+            },
+            {
+              img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+              title: "Paatal Lok",
+              description: "A down and out cop lands the case of a lifetime when four suspects",
+              release: "2019",
+              genre: "comedy",
+            },
+            {
+              img: "https://sm.mashable.com/mashable_in/seo/1/18039/18039_pjew.jpg",
+              title: "Paatal Lok",
+              description: "A down and out cop lands the case of a lifetime when four suspects",
+              release: "2019",
+              genre: "comedy",
+            },
+            {
+              img: "https://m.media-amazon.com/images/S/pv-target-images/356291ba7ee6445b4bd203816ed1a677e04421328d45966a49a1d573e0a03d05.jpg",
+              title: "Rahasya",
+              description: "Rahasya Is An Award Winning Bollywood Murder Mystery Hindi Movie,",
+              release: "2019",
+              genre: "thriller",
+            },
+            {
+              img: "https://m.media-amazon.com/images/S/pv-target-images/9f51e8ce4118362176505993ecd1a70223351fa1fee4a9d290ef1d945a3cbf30.png",
+              title: "Panchayat",
+              description:
+                "As the Panchayat elections approach, both Pradhan and Bhushan gangs",
+              release: "2019",
+              genre: "comedy",
+            },
+  ];
+
+  export default movies;
